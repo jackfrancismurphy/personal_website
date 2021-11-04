@@ -1,0 +1,16 @@
+h1 {
+  color: skyblue;
+  top: 100px;
+}
+
+.myHeading {
+bottom: 80px ;
+}
+
+img.b {
+  vertical-align: text-top;
+}
+
+body {
+  background-color: lavenderblush;
+}
