@@ -1,11 +1,71 @@
 h1 {
-  color: skyblue;
-  top: 100px;
+  position:  absolute;
+  left: 90px;
 }
 
-.myHeading {
-bottom: 80px ;
+/* wtf */
+
+h2 {
+    position:  absolute;
+    text-align: right;
+    background-color: blueviolet;
 }
+
+
+/* bottom headings */
+
+#Coding {
+  position:  absolute;
+  bottom: 225px;
+
+}
+
+#Education {
+  position:  absolute;
+  bottom: 225px;
+  left: 200px;
+}
+
+#Recent_Employment {
+  position:  absolute;
+  bottom: 225px;
+  left: 425px;
+}
+
+#Activities {
+  position:  absolute;
+  bottom: 225px;
+  left: 690px;
+}
+
+#Interests {
+  position:  absolute;
+  bottom: 225px;
+  left: 919px;
+}
+
+
+
+
+
+
+#Venice {
+    position:  absolute;
+}
+
+#heading {
+
+}
+
+
+
+
+
+
+
+
+
+.flexcon { display:flex }
 
 img.b {
   vertical-align: text-top;
