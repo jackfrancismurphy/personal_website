@@ -1,57 +1,47 @@
-h1 {
+
+
+#heading {
   position:  absolute;
-  left: 90px;
+  left: 130px; 
+  top: 0px;
 }
 
-/* wtf */
 
-h2 {
-    position:  absolute;
-    text-align: right;
-    background-color: blueviolet;
+/* image */
+
+#Venice {
+  width: 100%;
+  margin: 0px;
 }
-
 
 /* bottom headings */
 
-#Coding {
-  position:  absolute;
-  bottom: 225px;
-
-}
-
-#Education {
-  position:  absolute;
-  bottom: 225px;
-  left: 200px;
-}
-
-#Recent_Employment {
-  position:  absolute;
-  bottom: 225px;
-  left: 425px;
-}
-
-#Activities {
-  position:  absolute;
-  bottom: 225px;
-  left: 690px;
-}
-
-#Interests {
-  position:  absolute;
-  bottom: 225px;
-  left: 919px;
+#bio {
+  position: absolute;
+  width: 23%;
+  top:  18%;
+  left: 13%;
+  font-size: 135%;
+  font: serif;
 }
 
 
-
-
-
-
-#Venice {
-    position:  absolute;
+#Footer{
+  position: absolute;
+  left:  0px;
+  bottom: 0px;
+  width: 100%;
 }
+
+.footer_link {
+  display: block;
+  float: left;
+  width: 20%;
+  background-color: blueviolet;
+  text-align: center;
+}
+
+
 
 #heading {
 
@@ -73,4 +63,12 @@ img.b {
 
 body {
   background-color: lavenderblush;
+  margin: 0px;
 }
+
+
+
+/* now, I struggled to put all the code into one CSS sheet. I can't tell why. 
+I should try and define the header by percentages and not pixels. 
+I should also move the code in one block at a time and see what happens.
+ */
