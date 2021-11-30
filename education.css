@@ -1,14 +1,21 @@
-p {
-	font-size: 120%;
+.background_images{
+  width: 100%;
+  margin: 0px;
+}
+
+#main_text_box {
+	position: absolute;
+	width: 50%;
+  	top:  40%;
+  	left: 25%;
+	font-size: 400%;
 	text-align: center;
 	line-height: 1.8;
-	position: absolute;
-	bottom:  130px;
-	left:  110px;
 	padding-top: 75px;
 	padding-right: 75px;
 	padding-bottom: 75px;
 	padding-left: 75px;
+	background-color: darkblue;
 }
 
 
