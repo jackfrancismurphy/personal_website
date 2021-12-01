@@ -1,4 +1,5 @@
 
+/* website_main_page */
 
 #heading {
   position:  absolute;
@@ -7,19 +8,12 @@
 }
 
 
-/* image */
-
-#Venice {
-  width: 100%;
-  margin: 0px;
-}
-
 /* bottom headings */
 
 #bio {
   position: absolute;
   width: 23%;
-  top:  18%;
+  top:  15%;
   left: 13%;
   font-size: 135%;
   font: serif;
@@ -43,28 +37,97 @@
 
 
 
-#heading {
 
-}
-
-
-
-
-
-
-
-
-
-.flexcon { display:flex }
-
-img.b {
-  vertical-align: text-top;
-}
+/* Applies to all */
 
 body {
-  background-color: lavenderblush;
   margin: 0px;
 }
+
+
+.background_images{
+  width: 100%;
+  margin: 0px;
+}
+
+#main_text_box {
+  position: absolute;
+  width: 50%;
+    top:  40%;
+    left: 25%;
+  font-size: 100%;
+  text-align: center;
+  line-height: 1.8;
+  padding-top: 75px;
+  padding-right: 75px;
+  padding-bottom: 75px;
+  padding-left: 75px;
+  background-color: darkblue;
+}
+
+
+#return_link
+{
+  position: absolute;
+  bottom:  -10%;
+  left:  92%;
+  color: white;
+}
+
+
+/*
+Coding ?
+ p {
+  font-size: 120%;
+  text-align: center;
+  line-height: 1.8;
+  position: absolute;
+  bottom:  130px;
+  left:  110px;
+  padding-top: 75px;
+  padding-right: 75px;
+  padding-bottom: 75px;
+  padding-left: 75px;
+}
+
+
+#return_link
+{
+  position: absolute;
+  bottom:  -40px;
+  left:  875px;
+  color: white;
+}
+
+
+Recent Employment 
+
+p {
+  font-size: 80%;
+  text-align: center;
+  line-height: 1.6;
+  position: absolute;
+  bottom:  130px;
+  left:  130px;
+  padding-top: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  padding-left: 60x;
+}
+
+
+#return_link
+{
+  position: absolute;
+  bottom:  -40px;
+  left:  875px;
+  color: white;
+}
+
+
+
+
+ */
 
 
 
