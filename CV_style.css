@@ -5,6 +5,7 @@
   position:  absolute;
   left: 130px; 
   top: 0px;
+
 }
 
 
@@ -13,10 +14,10 @@
 #bio {
   position: absolute;
   width: 23%;
-  top:  15%;
+  top:  11%;
   left: 13%;
   font-size: 135%;
-  font: serif;
+  ;
 }
 
 
@@ -31,7 +32,8 @@
   display: block;
   float: left;
   width: 20%;
-  background-color: blueviolet;
+  background-color: #818189;
+  color: black;
   text-align: center;
 }
 
@@ -47,22 +49,29 @@ body {
 
 .background_images{
   width: 100%;
+  height: 100vh;
   margin: 0px;
+  object-fit: cover;
+  ;
 }
 
 #main_text_box {
   position: absolute;
   width: 50%;
-    top:  40%;
-    left: 25%;
+    top:  20%;
+    left: 22%;
   font-size: 200%;
+  font-weight: bold;
   text-align: center;
   line-height: 1.8;
   padding-top: 75px;
   padding-right: 75px;
   padding-bottom: 75px;
   padding-left: 75px;
-  background-color: darkblue;
+  color: white;
+  background-color: rgba(0, 0, 139, 0.4);
+
+
 }
 
 
@@ -73,6 +82,7 @@ body {
   right:  1%;
   color: white;
 }
+
 
 
 /*
