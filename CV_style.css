@@ -69,8 +69,8 @@ body {
 #return_link
 {
   position: absolute;
-  bottom:  -10%;
-  left:  92%;
+  bottom:  0;
+  right:  1%;
   color: white;
 }
 
