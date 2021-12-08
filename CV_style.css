@@ -5,8 +5,11 @@
   position:  absolute;
   left: 130px; 
   top: 0px;
-
+  font-family: 'EB Garamond', serif;
+  font-weight: 600;
+  font-size: 1.5vw;
 }
+
 
 
 /* bottom headings */
@@ -15,8 +18,9 @@
   position: absolute;
   width: 23%;
   top:  11%;
-  left: 13%;
-  font-size: 135%;
+  left: 11%;
+  font-size: 1.5vw;
+  font-family: 'EB Garamond', serif;
   ;
 }
 
@@ -29,6 +33,7 @@
 }
 
 .footer_link {
+  font-size: 1.5vw;
   display: block;
   float: left;
   width: 20%;
@@ -60,9 +65,7 @@ body {
   font-weight: bold;
   text-align: center;
   line-height: 1.8;
-  padding-top: 75px;
   padding-right: 75px;
-  padding-bottom: 75px;
   padding-left: 75px;
   color: white;
 
@@ -88,45 +91,54 @@ a:visited {
 width: 50%;
 top:  20%;
 left: 22%;
-font-size: 200%;
+font-size: 1.7vw;
 background-color: rgba(0, 0, 139, 0.4);
-
+padding-top: 75px;
+padding-bottom: 75px;
 }
 
 #coding_text {
 width: 50%;
-top:  20%;
-left: 22%;
-font-size: 140%;
+top:  8%;
+left: 18%;
+font-size: 1.9vw;
 color:  white;
 background-color: rgba(0.44,0.50,0.56, 0.5);
+padding-top: 75px;
+padding-bottom: 75px;
 }
 
 #employment_text {
 width: 50%;
-top:  2%;
-left: 22%;
+top:  15%;
+left: 20%;
+font-size: 1.2vw;
 color:  white;
-background-color: rgba(0.44,0.50,0.56, 0.5)
-
+background-color: rgba(0.44,0.50,0.56, 0.5);
+padding-top: 20px;
+padding-bottom: 20px;
 }
 
 #activities_text {
 width: 50%;
-top:  10%;
+top:  25%;
 left: 19%;
-font-size:  140%;
+font-size:  1.5vw;
 color:  white;
-background-color: rgba(0.44,0.50,0.56, 0.5)
+background-color: rgba(0.44,0.50,0.56, 0.5);
+padding-top: 20px;
+padding-bottom: 20px;
 }
 
 #interests_text {
 width: 50%;
 top:  8%;
 left: 18%;
-font-size:  140%;
+font-size:  1.5vw;
 color:  white;
-background-color: rgba(0.44,0.50,0.56, 0.5)
+background-color: rgba(0.44,0.50,0.56, 0.5);
+padding-top: 75px;
+padding-bottom: 75px;
 }
 
 /*
