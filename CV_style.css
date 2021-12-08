@@ -7,9 +7,8 @@
   top: 0px;
   font-family: 'EB Garamond', serif;
   font-weight: 600;
-  font-size: 1.5vw;
+  font-size: 2.1vw;
 }
-
 
 
 /* bottom headings */
@@ -23,7 +22,6 @@
   font-family: 'EB Garamond', serif;
   ;
 }
-
 
 #Footer{
   position: absolute;
@@ -41,8 +39,6 @@
   color: black;
   text-align: center;
 }
-
-
 
 
 /* Applies to all */
