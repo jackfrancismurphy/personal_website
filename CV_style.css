@@ -3,7 +3,7 @@
 
 #heading {
   position:  absolute;
-  left: 130px; 
+  left: 11%; 
   top: 0px;
   font-family: 'EB Garamond', serif;
   font-weight: 600;
@@ -33,7 +33,7 @@
 }
 
 .footer_link {
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   display: block;
   float: left;
   width: 20%;
@@ -65,8 +65,8 @@ body {
   font-weight: bold;
   text-align: center;
   line-height: 1.8;
-  padding-right: 75px;
-  padding-left: 75px;
+  padding-right: 11%;
+  padding-left: 11%;
   color: white;
 
 
@@ -89,9 +89,9 @@ a:visited {
 
 #education_text {
 width: 50%;
-top:  20%;
-left: 22%;
-font-size: 1.7vw;
+top:  11%;
+left: 16%;
+font-size: calc(12px + 1.6vw);
 background-color: rgba(0, 0, 139, 0.4);
 padding-top: 75px;
 padding-bottom: 75px;
@@ -100,19 +100,19 @@ padding-bottom: 75px;
 #coding_text {
 width: 50%;
 top:  8%;
-left: 18%;
-font-size: 1.9vw;
+left: 14%;
+font-size: calc(12px + 1.2vw);
 color:  white;
 background-color: rgba(0.44,0.50,0.56, 0.5);
-padding-top: 75px;
-padding-bottom: 75px;
+padding-top: 8%;
+padding-bottom: 8%;
 }
 
 #employment_text {
 width: 50%;
 top:  15%;
 left: 20%;
-font-size: 1.2vw;
+font-size: calc(12px + 0.3vw);
 color:  white;
 background-color: rgba(0.44,0.50,0.56, 0.5);
 padding-top: 20px;
@@ -140,64 +140,3 @@ background-color: rgba(0.44,0.50,0.56, 0.5);
 padding-top: 75px;
 padding-bottom: 75px;
 }
-
-/*
-Coding ?
- p {
-  font-size: 120%;
-  text-align: center;
-  line-height: 1.8;
-  position: absolute;
-  bottom:  130px;
-  left:  110px;
-  padding-top: 75px;
-  padding-right: 75px;
-  padding-bottom: 75px;
-  padding-left: 75px;
-}
-
-
-#return_link
-{
-  position: absolute;
-  bottom:  -40px;
-  left:  875px;
-  color: white;
-}
-
-
-Recent Employment 
-
-p {
-  font-size: 80%;
-  text-align: center;
-  line-height: 1.6;
-  position: absolute;
-  bottom:  130px;
-  left:  130px;
-  padding-top: 60px;
-  padding-right: 60px;
-  padding-bottom: 60px;
-  padding-left: 60x;
-}
-
-
-#return_link
-{
-  position: absolute;
-  bottom:  -40px;
-  left:  875px;
-  color: white;
-}
-
-
-
-
- */
-
-
-
-/* now, I struggled to put all the code into one CSS sheet. I can't tell why. 
-I should try and define the header by percentages and not pixels. 
-I should also move the code in one block at a time and see what happens.
- */
