@@ -1,44 +1,39 @@
 
 /* website_main_page */
 
-#heading {
-  position:  absolute;
-  left: 11%; 
-  top: 0px;
-  font-family: 'EB Garamond', serif;
-  font-weight: 600;
-  font-size: 2.1vw;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  min-height: 100vh;
+  background-color: #3d5aa5;
+  padding: 20px;
 }
 
-
-/* bottom headings */
+#heading {
+  grid-column: 1;
+  grid-row: 1;
+  font-family: 'EB Garamond', serif;
+  font-weight: bold;
+  font-size: 2.5vw;
+  line-height: 1.2;
+  color: #20507D;
+}
 
 #bio {
-  position: absolute;
-  width: 23%;
-  top:  11%;
-  left: 11%;
-  font-size: 1.5vw;
+  grid-column: 2;
+  grid-row: 2;
+  font-size: 1.2vw;
   font-family: 'EB Garamond', serif;
-  ;
+  line-height: 1.5;
+  grid-row-end: span 2;
+  color: #666666;
 }
 
-#Footer{
-  position: absolute;
-  left:  0px;
-  bottom: 0px;
-  width: 100%;
-}
 
-.footer_link {
-  font-size: 1.4vw;
-  display: block;
-  float: left;
-  width: 20%;
-  background-color: #818189;
-  color: black;
-  text-align: center;
-}
+
+
+
 
 
 /* Applies to all */
@@ -53,7 +48,6 @@ body {
   height: 100vh;
   margin: 0px;
   object-fit: cover;
-  ;
 }
 
 .main_text_box {

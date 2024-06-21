@@ -1,26 +1,82 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="CV_style.css?rnd=132">
-
-<title>Jack Murphy CV</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jack Murphy - Personal Website</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>  
+    <h1>Jack Murphy</h1>
+    <p id="subheading">Full Stack Developer & Freelance Developer Educator</p>
+  </header>
 
-	<img src="res/profile_pic.jpg" alt="in Venetia" class="background_images" id="Venice">
-  	<h1 id="heading">Jack Murphy - CV</h1>	
-	<p class= "text" id= "bio">A driven and personable Master’s graduate, 	finding solutions with developed critical thinking skills.</p>
-	<div class="w3-container" id="Footer"> 
-  		<a href="education.htm" class = "footer_link"><h2 class= "text" >Education</h2></a>
-  		<a href="coding.htm" class = "footer_link"><h2 class= "text" >Coding</h2></a>
-  		<a href="recent_employment.htm" class = "footer_link"><h2 class= "text" >Recent Employment</h2></a>
-  		<a href="activities.htm" class = "footer_link"><h2 class= "text" >Activities</h2></a>
-  		<a href="interests.htm" class = "footer_link"><h2 class= "text" >Interests</h2></a>
-	</div>		
-<body>
+  <nav>
+    <ul>
+      <li><a href="#about" class="heading_atag">About Me</a></li>
+      <li><a href="#skills" class="heading_atag">Skills</a></li>
+      <li><a href="#projects" class="heading_atag">Projects</a></li>
+      <li><a href="#contact" class="heading_atag">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi, I'm Jack. With experience in both a sillicon valley company and a start up I have 
+        developed a strong technical knowledge of the data-streaming sector within tech. 
+        My training in academic philosophy has allowed me to deeply grasp  
+        Apache Kafka with all its complexities and the data streaming world in which it is situated. Within this sector I have utilised
+        educational skills to create tutorials and optimise courses. Within this sector
+        I have also deepened my skills as a full stack developer, writing concise and production ready code.  </p>
+      <img src="images/headshot.jpg" id="portrait" alt="Portait of Jack">
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Python</li>
+        <li>HTML, CSS, JavaScript, React.js</li>
+        <li>Apache Kafka, microservices, </li>
+        <li>Communication and analytic skills</li>
+        <li>Autonomous working</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Projects of note:</p>
+      <ul>
+        <li>
+          <a href="https://www.quix.io/blog/clickstream-analytics-creating-a-heat-map-for-an-ecommerce-website">Heat map tutorial</a> - A data-streaming tutorial demonstrating data pipelines and data transformations.
+          <p>An application which collects mouse co-ordinate data from a customer-facing front end 
+            and overlays this data onto a second identical front end, in heat map fashion, for the purpose of analytics.</p>
+        </li>
+        <li>
+          <a href="https://jackfrancismurphy.github.io/newsle-frontend/"> Newsle </a> - Personal project full stack application.
+          <p>A wordle spin-off where you guess day's headline by unscrambling each word </p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div id="download_section">
+        <p id="download_text">Download CV</p>
+        <a href="Jack_Murphy_CV.docx" download="Jack_Murphy_CV.docx">
+          <img src="/images/Download-Button.png" id="download_button">
+        </a>
+    </div>   
+      <p>Feel free to reach out to me on LinkedIn!</p>
+      <ul>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/jack-francis-murphy/"> https://www.linkedin.com/in/jack-francis-murphy/</a></li>
+        <li>GitHub: <a href="https://github.com/jackfrancismurphy/"> https://github.com/jackfrancismurphy/</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Jack Murphy</p>
+  </footer>
+</body>
 </html>
