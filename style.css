@@ -53,24 +53,18 @@ body {
   }
 
   .heading_atag{
-    color: #333; /* Default unvisited color */
-    text-decoration: none; /* Remove underline for cleaner look */
+    color: #333;
+    text-decoration: none; 
   }
 
   .heading_atag:hover{
-    color: #007bff; /* Hover color */
-    text-decoration: underline; /* Add underline on hover */
+    color: #007bff; 
+    text-decoration: underline; 
   }
 
   #subheading{
     color:  #004c99;
     font-weight: bold;
-  }
-
-  #banner_image {
-    width: 100%; /* Fills the width of its container */
-    height: auto;  /* Maintains aspect ratio */
-    object-fit: cover; /* Scales to fill container while maintaining aspect ratio, cropping if necessary */
   }
   
   h1 {
@@ -110,14 +104,14 @@ body {
 #portrait {
     max-width: 15%;
     float: right;
-    width: 30%; /* Adjust width as needed */
-    margin-left: 3rem; /* Adjust margin as needed */
-    margin-top: 0; /* Ensures alignment with skills section */
+    width: 30%; 
+    margin-left: 3rem; 
+    margin-top: 0;
   }
   
-  /* Adjust skill section margin for better spacing (optional) */
+
   #skills {
-    margin-bottom: 4rem; /* Adjust margin as needed */
+    margin-bottom: 4rem;
   }
   
 
@@ -154,8 +148,8 @@ body {
   }
 
 #download_section {
-  float: right; /* Maintains right alignment */
-  text-align: center; /* Centers elements horizontally within the section */
+  float: right; 
+  text-align: center; 
 }
 
 #download_text {
@@ -163,8 +157,8 @@ body {
 }
 
 #download_button {
-  width: 10vw; /* Adjust width as needed for your image size */
-  height: 10vw; /* Adjust height proportionally if needed */
+  width: 10vw; 
+  height: 10vw; 
   margin: auto;
 }
 
